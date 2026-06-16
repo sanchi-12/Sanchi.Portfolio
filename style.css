@@ -1,0 +1,232 @@
+*{
+    margin: 0%;
+    padding: 0rem;
+}
+nav ul li a{
+    color: #979dac;
+    font-weight: 600;
+}
+.navbar{
+    background-color:#33415c;
+    display: flex;
+    height: 4rem;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-between;   
+}
+.logo{
+    margin-left: 1%;
+    color:#fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav-links{
+    list-style: none;
+    gap : 2rem;
+    display: flex;  
+    font-family:sans-serif;
+    margin-right: 1%;
+      
+}
+.nav-links :hover{
+    
+    color: #fff;
+    text-shadow:
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 40px #fff;
+   }
+.home-section {
+  display: flex;
+  justify-content: center;   
+  align-items: center;       
+  gap: 40px;       
+  background-color: #fdfdfd;
+  margin-bottom: 3rem;
+  margin-top: 3rem;  
+}
+
+.home-section img {
+  height:250px;
+  width:250px;
+  border-radius: 20%;  
+}
+.home-content p{
+    font-family:monospace;
+    font-size: 2rem;
+}.home-content h3{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2rem;  
+    color:#001233;  
+}
+
+.btn {
+    margin-top: 1rem;
+  display: inline-block;
+  padding: 15px 40px;
+  background-color:#33415c; /* base color */
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 900;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(90, 42, 131, 0.3);
+}
+
+.btn:hover {
+  background-color: #001233; /* hover color */
+  transform: scale(1.07); /* slight zoom effect */
+  box-shadow: 0 6px 15px #979dac;
+}
+
+.about-section{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1%;
+    margin-right: 1%;
+    
+}
+.about-section h1{
+    color: #001233; 
+
+}
+.about-section p{
+    text-align: justify;      
+}
+.skills-section{
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;    
+}
+.skill-block{
+    
+    width: 320px;
+    padding: 25px;
+    color: #fff;
+
+    background:#002855;
+
+    border: 3px solid transparent;
+    border-radius: 35px;
+
+    transition: all 0.4s ease;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.skills-section h1{
+    color: #001233;
+    
+}
+.skills-container{
+    margin-top: 1rem;
+    gap:2rem;
+    display: flex; 
+}
+.skill-block h3{
+    display: inline-block;
+    color:#001233 ;
+    text-align: center;
+    justify-content: center;
+    background-color:#7d8597;
+}
+.skill-block {    
+    border-radius: 40px;
+    transition:transform 0.3s ease-in-out, box-shadow 0.3s ease;
+    
+}
+.skill-block :hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 25px #7d8597;
+    cursor: pointer;
+}
+.projects-section{
+    margin:1%;
+    padding: 1%;
+    font-size: 1.5rem;}
+
+.projects-container{
+    display: flex;
+    margin-top: 1rem;
+    gap:4rem;
+}
+.project-image-wrapper img{
+    height: 220px;
+    width: 220px;    
+   
+}
+.projects-section h1{
+    color:#001233;
+}
+.project-card h3{
+    color: #101845;
+}
+.project-card{
+    align-items: center;
+    width: 280px;
+    padding: 20px;
+    display: inline-block;
+    color:#07152f ;
+    text-align: justify;
+    justify-content: center;
+    box-shadow: #4276b3;
+     border: 3px solid #0466c8;
+     border-radius: 35px;   
+     font-size: 1rem;
+}
+.project-card li a{
+    color: red;
+}
+.project-card li a:hover{
+    color: #0466c8;
+    text-shadow:
+        0 0 5px #0466c8,
+        0 0 10px #0466c8,
+        0 0 20px #0466c8,
+        0 0 40px #0466c8;
+}
+
+#contact{
+    padding: 50px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#contact h1{
+    margin-bottom: 30px;
+    color: #001233;
+}
+
+.contact-info{
+    background: #979dac;
+
+    width: 400px;
+
+    margin: auto;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 15px #33415c;
+}
+
+.contact-info p{
+    margin: 15px 0;
+    font-size: 15px;
+}
+
+.contact-info a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.contact-info a:hover{
+    text-decoration: underline;
+    color: #101845;
+}
